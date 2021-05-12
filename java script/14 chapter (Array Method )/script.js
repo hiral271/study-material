@@ -119,6 +119,8 @@ last();
 
 
                     ///////  push() //////////
+
+// push will always add array in to last one                     
   var look = ["HIRAL","SHYAMU"];
  document.getElementById("look").innerHTML= look ;
 

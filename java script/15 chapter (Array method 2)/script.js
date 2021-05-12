@@ -1,6 +1,6 @@
 // Creates an array containing names of five students in the class
-var students = ["Hiral", "Mohan", "Denish", "Khusbu", "vishu"];
-var fruits = ["mango", "carrot", "orange", "apple", "onions", "tomatos", "pineple", "watermelon"]
+var students = ["Hiral..", "Mohan..", "Denish..", "Ayushyamann..", "vishu.."];
+var fruits = ["mango..", "carrot..", "orange..", "apple..", "onions..", "tomatos..", "pineple..", "watermelon.."]
 
 function reverse() {
 
@@ -13,7 +13,9 @@ function reverse() {
 }
 reverse();
 
-var fruits = ["Banana", "Orange", "Apple", "Mango"];
+                      ///// shift()////////
+
+
 document.getElementById("demo").innerHTML = fruits;
 
 function myFunction() {
@@ -32,6 +34,22 @@ function myFunction() {
 
 
 }
+
+                       //////unshift()/////////
+ var planets = ["   Earth", "Saturn", "Mars", "Jupiter", "Uranus", "Venus"];
+
+
+function kahn(){
+
+ planets.unshift("RoachHell......");
+  document.getElementById("unshift").innerHTML = planets;
+
+}
+
+
+kahn()
+
+         ///// slice () ///////
 
 var qoute = "Feel free to feel good !!!!! "
 document.getElementById("cool").innerHTML = qoute ;
@@ -53,3 +71,29 @@ document.getElementById("slice4").innerHTML = rk ;
 
 }
 remove();
+
+
+                          ///////replace()//////////
+
+// by using this replace we can replace string words 
+// without chnging whole string 
+
+
+var a = qoute.replace("good","bad")
+document.getElementById("replace").innerHTML = a ;
+
+var b = qoute.replace("free","cool")
+document.getElementById("replace2").innerHTML= b;
+     
+
+
+                         ////// uppercase() & lowercase() ///////
+
+var c = qoute.toUpperCase()
+document.getElementById("upper").innerHTML = c ;
+
+var d = qoute.toLowerCase()
+document.getElementById("lower").innerHTML = d;
+
+var e = fruits.toString()
+document.getElementById("string").innerHTML = e ;

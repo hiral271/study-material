@@ -11,6 +11,10 @@ function declaration(a,b){
 
 // *  Logs "They are equal in type and value"
 
+// the values defined in () paranthesis are called "arguments"
+
+// 10 10 in () are called arguments 
+
 declaration(10,10);
 // you can change value of function
 //without changing all function 
@@ -45,3 +49,15 @@ var expression = function(){
 expression();
 expression();// we cant change value in expresstion function 
 // its stay they same during all codes its like stuck with same value 
+// defining function as var name is called expression function 
+
+// direct calling function like      function clear(){hsbdjwbdjk}
+// is called declaration function 
+
+// in declartion you can write name()   
+// provided name or choosen name for function 
+
+//in expression you have to wtite it like 
+// var a = function(){chjbjdbvjdfjvdf}
+// name = function()    ----expression
+//function name()         ---declaration 
