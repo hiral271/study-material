@@ -1,6 +1,6 @@
  var hotel = new Object()
 
- hotel.name= "park";
+ hotel.name= "Hilton";
  hotel.rooms =  120;
  hotel.booked = 77 ;
 
@@ -21,7 +21,7 @@ console.log(hotel.name)
 
 var park = new Object();
 
-park.name = "national park ";
+park.name = "National park";
 park.awailable = 100;
 park.booked = 59;
 
