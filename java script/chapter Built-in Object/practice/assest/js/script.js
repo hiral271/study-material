@@ -31,3 +31,26 @@ rootEl.addEventListener("click",function(){
 })
 
 console.log(document.body.children[1])
+
+console.log(document.body.children[2])
+
+colorEl = document.getElementById("color")
+boxEl= document.getElementById("box")
+
+
+boxEl.addEventListener("click",function(){
+
+   colorEl.style.width = "300px"
+
+})
+
+
+picEl = document.getElementById("pic")
+clickEl = document.getElementById("click")
+
+
+clickEl.addEventListener("click",function(){
+
+picEl.style.display = "block"
+
+})
