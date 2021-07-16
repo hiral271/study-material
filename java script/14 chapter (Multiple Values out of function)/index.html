@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multiple Values</title>
+</head>
+
+<body>
+  
+  <h1 style="text-align:center">Open the Console to See the Magic ✨</h1>
+  <h1 style="text-align:center">Multiple Values Out of Functions </h1>
+  
+  <hr >
+  <hr >
+  <h4 style="margin-top: 100px;" >function getSize(width , height ,depth){<br>
+
+    var area = width * height;<br>
+    var volume = width * height * depth;<br>
+    var size = [area, volume]<br>
+    return size ; <br>
+    
+    
+    }<br>
+    
+    var Volume2 = getSize(3,2,3)[0];  ----- this one for area cause it has [0] with paramiters   (3 * 2 )   <br>
+    var area2 = getSize(3,2,3)[1];  ----- this one for volume  cause it has [1] with paramiters (3 * 3 * 2)<br>  </h4>
+  
+  <h3 id="demo1"></h3>
+  <h3 id="demo2"></h3>
+  <hr>
+  
+  
+  <script src="script.js"></script>
+
+</body>
+</html>
