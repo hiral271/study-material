@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Click Counter</title>
+
+
+
+<body>
+
+  <h1 style="text-align: center;">DOM touchmove Event</h1>
+<br>
+  <div style="text-align: center; font-size: 20px;">
+    <!-- ontouchmove trigger the event it wants to show how far distance from the paragraph  -->
+    <!-- to give touch to image or paragraph add ontouchmove to the subject you wanna use as prope then add the event name  you want to use  -->
+    <p ontouchmove="myFunction(event)">Touch this paragraph, and move the finger to trigger a function that will display
+      the x and y coordinates of the touch, according the the document:</p>
+
+    <br>
+
+
+
+    <p><strong>Note:</strong> This example is for touch devices only.</p>
+
+    <p id="demo"></p>
+    <p id="demo2"></p>
+
+    <img ontouchmove="imageFunction(event) " src="https://via.placeholder.com/350x150"> ⬅  Toch this image then drag finger then release 
+
+    <h1 id="color"></h1>
+  </div>
+</body>
+<script src="./assets/js/script.js"></script>
+
+</html>
