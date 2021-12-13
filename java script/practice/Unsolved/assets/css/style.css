@@ -6,19 +6,20 @@
 
 body {
   font-family: sans-serif;
-  background-color: #FFFFE0
+  background-color:pink
 }
 
-h1 {
+h1 ,h2{
   text-align: center;
-  margin-top: 40px auto;
-  letter-spacing: 0.25em;
-  color: #001b44;
+  margin-top: 40px  auto;
+
+  color: #1a0044;
 }
 
-.container {
-  width: 80vw;
+#container {
+  width: 22%;
   margin: 25px auto;
+  color:rebeccapurple;
 }
 .box {
   display: block;
@@ -40,4 +41,25 @@ h1 {
   .box {
     width: 48%;
   }
+
+form
+{
+  width: 30%;
+text-align: center;
+display: flex;
+border: 2px solid black;
+font-size: 30px;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
 }

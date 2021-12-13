@@ -1,22 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="./assets/css/style.css" />
-    <title>Data Attributes</title>
-  </head>
-  <body>
-    <h1>Click on Box to Show Hidden Number</h1>
-    <div class="container">
-      <div class="box" data-number="1" data-state="hidden"></div>
-      <div class="box" data-number="2" data-state="hidden"></div>
-      <div class="box" data-number="3" data-state="hidden"></div>
-      <div class="box" data-number="4" data-state="hidden"></div>
-      <div class="box" data-number="5" data-state="hidden"></div>
-      <div class="box" data-number="6" data-state="hidden"></div>
-  
-    <script src="./assets/js/script.js"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <title>Data Attributes</title>
+</head>
+
+<body onload="pop()" id="cool">
+
+  <h1>onload Event</h1>
+
+  <h2>onload event will trigger the event right off once the page
+    is loaded
+  </h2>
+  <br>
+  <h2>onload function can only runs if we trigger event just from the begginigs
+    like right from the body tag.
+  </h2>
+
+  <hr>
+  <div>
+    <h2>The name Attribute</h2>
+    <div id="container">
+      <form action="/action_page.php">
+        <label for="fname">First name:</label><br>
+        <input type="text" value=""  id="back" onclick="color()"><br><br>
+        <h2>if you try to click on the input space it will chage color / we used "onclick Event here"</h2>
+        <input type="submit" value="Submit" id="change"> 
+              
+      </form>
+    </div>
+    <a id="link"
+      href="https://www.google.com/search?q=raavan&rlz=1C5CHFA
+       _enUS772US773&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiPtfn69Mr0AhVMj4kEHS1
+       0BpEQ_AUoAXoECAIQAw&biw=1280&bih=689&dpr=2#imgrc=-kqJkLjjaz-hBM">
+     <h3></h3> Try to open this</a>
+      <br>
+    </div>
+      <h3>if you try to click this link or submit button no action will appper /we used "prevent default Event"  here </h1>
+
+  <script src="./assets/js/script.js"></script>
+</body>
+
 </html>
